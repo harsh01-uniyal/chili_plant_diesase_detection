@@ -23,7 +23,10 @@
    ```bash
    git clone https://github.com/your-username/harsh01-uniyal-chili_plant_diesase_detection.git
    cd harsh01-uniyal-chili_plant_diesase_detection
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+ python -m venv venv
+ source venv/bin/activate  
+## On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-Run the application:
+### Run the application:
+- python app.py
+
