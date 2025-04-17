@@ -30,7 +30,7 @@ def make_model(n_classes):
     # Lapisan dense dengan 128 unit
     model.add(Dense(128, activation='relu'))
     
-    # Lapisan output sesuai jumlah kelas
+    # Lapsian
     model.add(Dense(n_classes, activation='softmax'))
 
     return model
